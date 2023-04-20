@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.heading{
+    
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom:2rem ;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.3rem;
+    font-family: 'Lato', sans-serif;
+}
+.heading span{
+   
+    color: rgb(67, 175, 246);
+    font-family: 'Lato', sans-serif;
+    
+}

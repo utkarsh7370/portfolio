@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200&display=swap');
+.AboutSection{
+    /* border: 2px solid black; */
+
+    border-radius: 3rem;
+    background-color: #173448;
+    -webkit-box-shadow: 7px 7px 19px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 7px 7px 19px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 7px 7px 19px -5px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -7px -7px 19px -5px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -7px -7px 19px -5px rgba(0, 0, 0, 0.75);
+            box-shadow: -7px -7px 19px -5px rgba(0, 0, 0, 0.75);
+            padding-left: 4rem !important;
+            padding-right: 4rem !important; 
+        }
+.aboutText{
+    color: #b6b6b6 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+.aboutWork h1{
+    color: rgb(67, 175, 246) !important;
+}
+.AboutSection div p{
+    color: rgb(102, 101, 101);
+    letter-spacing: 0.3;
+}
+@media (max-width: 575.98px) {
+    .AboutSection {
+            padding: 1rem 0.5rem !important;
+        }
+}
+

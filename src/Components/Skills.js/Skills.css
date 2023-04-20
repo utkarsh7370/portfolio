@@ -1,0 +1,22 @@
+.skillSection{
+    /* background-color: #f6f6f6; */
+    padding-bottom: 4rem;
+    
+}
+h5{
+    text-align: left !important;
+    margin-top: 1rem;
+    color:#fff !important;
+    /* color:rgb(67, 175, 246) !important; */
+}
+.skillHead{
+    text-align: left;
+    font-weight: bold ;
+    color: #fff!important;
+    margin-bottom: 2rem;
+    /* color: rgb(54, 54, 54) !important; */
+}
+.progressBg{
+    background-color: rgb(67, 175, 246) !important;    
+    
+}
