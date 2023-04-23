@@ -1,45 +1,41 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import "./About.css";
+import Workdata from "./DoingData";
 import Projects from "../Projects/Projects";
-// import Projects from "./../Projects/Projects.js";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function About() {
   return (
     <>
-      <section className="AboutSection container p-2 mt-5 mb-5 pb-5">
-        <Heading title="About" subtitle=" Me" />
-        <hr className="text-white" />
-        <hr className="text-white" />
-        <div>
-          <p className="aboutText">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32. The standard chunk of
-            Lorem Ipsum used since the 1500s is reproduced below for those
-            interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
-            Malorum" by Cicero are also reproduced in their exact original form,
-            accompanied by English versions from the 1914 translation by H.
-            Rackham.
-          </p>
-        </div>
-        <div className="aboutWork">
-          <h1 className="text-white text-bold fs-30 mt-5">
-            What i Actually do !
-          </h1>
-          <Projects title="" subtitle="" />
-        </div>
-        {/* <Projects /> */}
-      </section>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <section
+          className="AboutSection container p-2 mt-5 mb-5 pb-5"
+          id="about"
+        >
+          <Heading title="About" subtitle=" Me" />
+          <hr className="text-white" />
+          <hr className="text-white" />
+          <div>
+            <p className="aboutText">
+              Hello, I am a frontend web developer, currently studying in 3rd
+              year in "MCKV Institute of engineering" for B.Tech degree in
+              computer science and engineering department. I am always excited
+              to work on new things, framework, projects and technologies etc.
+              It is very exciting to work in a new startups and businesses for
+              me because I think in these workplaces there are more
+              opportunities to learn new things and buil my skill and network.
+            </p>
+          </div>
+          <div className="aboutWork">
+            <h1 className="text-white text-bold fs-30 mt-5">
+              What i Actually do !
+            </h1>
+            <Projects title="" subtitle="" dataFile={Workdata} />
+          </div>
+        </section>
+      </AnimationOnScroll>
+      ;
     </>
   );
 }

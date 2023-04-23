@@ -22,25 +22,29 @@ function Hero() {
                     class="btn d-block d-sm-inline-block mb-4 mb-sm-0 me-sm-6"
                     href="https://www.instagram.com/u.singh73/"
                   >
-                    Instagram <i class="fa-brands fa-instagram"></i>
+                    {/* Instagram */}
+                    <i class="fa-brands fa-instagram"></i>
                   </a>
                   <a
                     class="btn d-block d-sm-inline-block btn-outline-light-dark"
                     href="https://github.com/utkarsh7370"
                   >
-                    Github <i class="fa-brands fa-github"></i>
+                    {/* Github  */}
+                    <i class="fa-brands fa-github"></i>
                   </a>
                   <a
                     class="btn d-block d-sm-inline-block btn-outline-light-dark"
                     href="https://twitter.com/UtKarsh_kRSiNgH"
                   >
-                    Twitter <i class="fa-brands fa-twitter"></i>
+                    {/* Twitter  */}
+                    <i class="fa-brands fa-twitter"></i>
                   </a>
                   <a
                     class="btn d-block d-sm-inline-block btn-outline-light-dark"
                     href="https://www.linkedin.com/in/utkarsh-kumar-singh-91b1a2205/"
                   >
-                    LinkedIn <i class="fa-brands fa-linkedin"></i>
+                    {/* LinkedIn  */}
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
                 <div class="d-sm-flex align-items-left mt-1">
@@ -51,7 +55,7 @@ function Hero() {
                     My Resume
                   </a>
                   <a
-                    class="btn d-block ms-2 d-sm-inline-block btn-outline-light-dark"
+                    class="btn d-block d-sm-inline-block btn-outline-light-dark"
                     href="tel:+7370988146"
                   >
                     <svg
