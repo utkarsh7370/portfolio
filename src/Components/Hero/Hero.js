@@ -55,8 +55,8 @@ function Hero() {
                     My Resume
                   </a>
                   <a
-                    class="btn d-block d-sm-inline-block btn-outline-light-dark"
-                    href="tel:+7370988146"
+                    class="btn d-block ms-2 d-sm-inline-block btn-outline-light-dark"
+                    href="tel:7370988146"
                   >
                     <svg
                       width="19"
